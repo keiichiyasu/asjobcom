@@ -18,8 +18,8 @@ title: 日本音響学会音バリアフリー調査研究委員会
 description: >- # this means to ignore newlines until "baseurl:"
  日本音響学会音バリアフリー調査研究委員会の公式ページです。研究委員会の活動予定・報告をいち早くお知らせします。
  音とバリアフリーについて，聞こえの支援や発話支援，目の不自由な方やお年寄りの方の音による移動支援，音バリアフリー情報の公開・共有から学術的動向まで，様々なことを発信します。
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "asjobcom/" # the subpath of your site, e.g. /blog
+url: "https://keiichiyasu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
@@ -27,8 +27,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 theme: minima
 #theme: jekyll-theme-cayman
-#plugins:
-#  - jekyll-feed
+plugins:
+   - jekyll-feed
+   - jekyll-github-metadata
+github : [metadata]
+repository: keiichiyasu/asjobcom
+
+engoding: utf-8
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
